@@ -12,6 +12,9 @@ gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
+gem 'grape'
+gem 'grape-entity'
+gem 'grape-rails-routes', '~> 1.0'
 
 group :development do
   gem 'pry-rails'
