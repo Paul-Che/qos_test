@@ -1,0 +1,11 @@
+default: &default
+  adapter: postgresql
+  encoding: utf8
+
+development:
+  <<: *default
+  database: test_qos_development
+
+test:
+  <<: *default
+  database: test_qos_test
