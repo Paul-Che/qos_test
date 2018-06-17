@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Test Project for QOS Energy.
 
-Things you may want to cover:
+Goal : Change default destroy method in ActiveRecord, in a way that it should keep it in DB with deleted field to true.
 
-* Ruby version
+Attached, a Postman collection to simplify checkout of all different calls. 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/3a7fe16388c204dcda3f)
