@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
   root 'sensors#index'
-  resources :sensors do
-    resources :values
-  end
+  resources :sensors, only: %i[index show]
   mount Sensors::Base => '/api/'
 end
